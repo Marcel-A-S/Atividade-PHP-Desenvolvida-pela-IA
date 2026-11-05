@@ -1,8 +1,13 @@
-<?php 
- $alunos = [ "Ana", " Pedro", "Jose" ];
- foreach ($alunos as $aluno) {
-      echo "Nome do aluno:" . $aluno;
-      echo "<br>";
- }
+<?php
+
+$alunos = [
+    ["nome" => "Ana", "idade" => 20],
+    ["nome" => "Carlos", "idade" => 22]
+];
+
+foreach ($alunos as $aluno) {
+    echo $aluno["idade"];
+    echo "<br>";
+}
 
 ?>
