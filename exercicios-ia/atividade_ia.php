@@ -1,13 +1,11 @@
 <?php
 
-$alunos = [
-    ["nome" => "Ana", "idade" => 34],
-    ["nome" => "Carlos", "idade" => 20]
-];
+function saudacao (){
+    echo "Olá estou aprendendo PHP";
 
-foreach ($alunos as $aluno) {
-    echo $aluno["idade"];
-    echo "<br>";
 }
 
+saudacao();
 ?>
+
+
